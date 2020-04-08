@@ -1,1 +1,40 @@
-Hi
+<html>
+  <head>
+  	<title>Trying out</title>
+  	<base href="file:///home/arthik/git_file/march/html/" target="_blank">
+  	<style>
+  		header{
+  			height:100px;
+  			color:rgb(180,169,193);
+  			text-align:center;
+  			padding-top:20px;
+  			background-image:radial-gradient(rgb(30,30,33) 40%,rgb(230,230,200));
+
+  		}
+  		nav a {
+  			color:black;
+  			font-weight:bold;
+  			text-decoration: none;
+  		}
+  		iframe{
+  			width:100%;
+  			height:70%;
+  			border: none;
+  			
+  		}
+  	</style>
+  </head>
+  <body>
+  	<header>
+  		<h1 >My profile</h1>
+  	</header>
+  	<nav>
+  		<a href="profile/about_me.html" target="display">About me</a> |
+  		<a href="profile/education.html" target="display">Education</a>|
+  		<a href="profile/interests.html" target="display">Interests</a>|
+  		<a href="profile/achievements.html" target="display">Achievements</a>|
+  		<a href="feedback.html">Feedback <font style="color:red">(temporary)</font></a>|
+  	</nav>
+  	<iframe name="display" src="/profile/about_me.html"></iframe>
+</body>
+</html>
